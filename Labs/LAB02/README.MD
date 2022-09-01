@@ -1,6 +1,6 @@
-## Exercise 2: View Livestream, Setup Alerts (Analytics) and Respond to Incident in Azure Sentinel
+## Exercise 2: View Livestream, Setup Alerts (Analytics) and Respond to Incident in Microsoft Sentinel
 
-In this section we will view events occuring live and then configure Alerts in Azure Sentinel to generate Incidents for our security team.  During the review of these Incident we will build a Playbook to simplify the handling of these alerts.<br>
+In this section we will view events occuring live and then configure Alerts in Microsoft Sentinel to generate Incidents for our security team.  During the review of these Incident we will build a Playbook to simplify the handling of these alerts.<br>
 
 ## Task 1: Log on to the My Apps portal as a **Standard User**<br>
 
@@ -26,7 +26,7 @@ In this task you will log into the Azure portal and navigate to Sentinel.
    Username: **AdminXX@sentinellab.xyz** (where “XX” is the number you have been assigned at the start of class):<br>
    Password: **Ask the trainer**
 3. This brings you to the Azure Home. In the box at the top, search for **Sentinel**.
-4. In the results, click on **Azure Sentinel**
+4. In the results, click on **Microsoft Sentinel**
 
 ![alt text](../LAB01/screenshots/portal2.PNG )<br><br>
 
@@ -169,7 +169,7 @@ SecurityEvent
 ![alt text](screenshots/invest11.PNG)<br><br>
 
 5. You may explore other available options in the investigation graph. However, depending upon the data available at the time, some options in the graph will be grayed out.
-6. Navigate back to Azure Sentinel -> Incidents and locate your incident **AdminXX – Admin Group Change**
+6. Navigate back to Microsoft Sentinel -> Incidents and locate your incident **AdminXX – Admin Group Change**
 7. Click on your incident and Click the **Investigate** button
 8. Within the investigation window you can see the User that was added to the group, and the Group that they were added to.
 9. Hover over the User account victim4 and click **Related alerts** to see additional alerts related to this Admin group change involving this account.
@@ -211,10 +211,10 @@ In this playbook we will be adding a user into a group based on a Incidents.  Th
 10. Wait for the Logic App to deploy.
 11. On the Your Deployment is complete screen, click **Go to resource.**
 12. In the Logic Apps Designer, Click **Blank Logic App**
-13. In the text box **Search connectors and triggers** type **Sentinel** and click on the icon for **Azure Sentinel**.
-14. Select **When a response to an Azure Sentinel alert is triggered**
+13. In the text box **Search connectors and triggers** type **Sentinel** and click on the icon for **Microsoft Sentinel**.
+14. Select **When a response to an Microsoft Sentinel alert is triggered**
 15. Click **New Step**
-16. Search for **Sentinel** and click on the **Azure Sentinel** icon
+16. Search for **Sentinel** and click on the **Microsoft Sentinel** icon
 17. Click **Entities – Get accounts (preview)**.
 
 ![alt text](screenshots/play01.PNG )<br><br>
@@ -249,7 +249,7 @@ In this playbook we will be adding a user into a group based on a Incidents.  Th
 ![alt text](screenshots/logicapp_id.png )<br><br>
 
 34. At the bottom of the page, click **New Step**
-35. Search for Azure Sentinel and select **Alert – Get incident (preview)**
+35. Search for Microsoft Sentinel and select **Alert – Get incident (preview)**
 36. Click Specify Subscription Id and select **Subscription ID** in the flyout
 37. Click Specify resource group and select **Resource group** from the flyout
 38. Click Specify workspace id and select **Workspace ID** in the flyout
@@ -257,7 +257,7 @@ In this playbook we will be adding a user into a group based on a Incidents.  Th
 
 ![alt text](screenshots/logicapp1.png )<br><br>
 
-40. Click New Step, search for Azure Sentinel and select **Add comment to incident (V3)**
+40. Click New Step, search for Microsoft Sentinel and select **Add comment to incident (V3)**
 41. Click Incident **ARM id and select Incident ARM ID** from the flyout
 42. Click on the Incident comment field and type **"User was blocked with Conditional Access by Logic App"**
 
@@ -284,9 +284,9 @@ In this playbook we will be adding a user into a group based on a Incidents.  Th
 
 ![alt text](screenshots/myapp.PNG )<br><br>
 
-## Task 10: (Optional) Review Additional Logic Apps in Azure Sentinel GitHub
+## Task 10: (Optional) Review Additional Logic Apps in Microsoft Sentinel GitHub
 
-Navigate to Azure Sentinel official GitHub Repository into the playbook section https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks <br> review the list of playbooks and the deployment options.
+Navigate to Microsoft Sentinel official GitHub Repository into the playbook section https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks <br> review the list of playbooks and the deployment options.
 
 ### Continue with the next lab
 

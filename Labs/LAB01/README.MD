@@ -4,7 +4,7 @@
 
 After completing this lab, you will be able to:
 
-· Deploy Azure Sentinel as a platform for visualizing, investigating, and alerting on your customer's security big data
+· Deploy Microsoft Sentinel as a platform for visualizing, investigating, and alerting on your customer's security big data
 
 · Confidently use Sentinel to render your customer's visualized data truly actionable
 
@@ -34,8 +34,8 @@ Password: **Assigned by instructor**
 **Important Note**: Because data changes rapidly, throughout this lab your results may be slightly different than the examples given throughout this lab guide. The guide is meant to be illustrative; slight differences in data are not a problem.
 
 **Important Note 2**: All exercises in this lab should be completed using an InPrivate (Edge) or Incognito (Chrome) browser session. This will ensure that your Microsoft or other credentials do not interfere.
-# Exercise 1: Review Azure Sentinel Data Connectors
-In this exercise you will be reviewing the data connectors of Azure Sentinel to confirm that data is already being collected in the Sentinel Workspace.  Data connectors are critical to a setup of Azure Sentinel so that data can flow into the workspace.  To save time, these data connectors have been configured in advance.<br>
+# Exercise 1: Review Microsoft Sentinel Data Connectors
+In this exercise you will be reviewing the data connectors of Microsoft Sentinel to confirm that data is already being collected in the Sentinel Workspace.  Data connectors are critical to a setup of Microsoft Sentinel so that data can flow into the workspace.  To save time, these data connectors have been configured in advance.<br>
 **Task 1: Log on to Azure and Navigate to Sentinel**<br>
 In this task, you will log into the Azure portal and navigate to Sentinel.
 1.	In a browser, navigate to https://portal.azure.com.
@@ -45,7 +45,7 @@ Username: **AdminXX@sentinellab.xyz** (where “XX” is the number you have bee
 Password: **Assigned by instructor**
 
 3.	This brings you to the Azure Home. In the box at the top, search for **Sentinel**.
-4.	In the results, click on **Azure Sentinel**.
+4.	In the results, click on **Microsoft Sentinel**.
 
 
 ![alt text](screenshots/portal2_new.PNG)<br><br>
@@ -74,4 +74,4 @@ Password: **Assigned by instructor**
 
 
 ### Continue with the next lab
-LAB 02 -Setup Alerts (Analytics) and Respond to Cases in Azure Sentinel, click <a href="../LAB02/README.MD" target="_blank">here</a>
+LAB 02 -Setup Alerts (Analytics) and Respond to Cases in Microsoft Sentinel, click <a href="../LAB02/README.MD" target="_blank">here</a>

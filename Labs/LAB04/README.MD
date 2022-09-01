@@ -2,7 +2,7 @@
 
 **Task 1:** Navigate to Sentinel Hunting and Run all queries<br>
 As in Task 1, we will be proactively hunting for Indicators of Attack in Sentinel. In that task we were doing so visually through the use of dashboards. Here, we will use built-in KQL queries to identify signs of potential problems.
-1.	From the Azure Sentinel homepage, click on **Hunting.**
+1.	From the Microsoft Sentinel homepage, click on **Hunting.**
 
 2.	In the pane that opens, click on Hunting.<br>
 
@@ -39,7 +39,7 @@ In this Task, we will run several single queries to hunt for indicators of compr
 
 7.	Right away we might notice some suspicious activity. For purposes of our lab, let’s focus on the highlighted process above and the ones like it. These are processes we do not normally recognize – and they may very well be nefarious. Certainly, we need to investigate further.
 8.	Note that we have identified a protentially dangerous process that otherwise would have gone unnoticed in the environment. This can be an early indicator of compromise – and early detection is key to being able to create a meaningful response.
-9.	Click on **Azure Sentinel – Hunting** at the top to return to he Hunting section.
+9.	Click on **Microsoft Sentinel – Hunting** at the top to return to he Hunting section.
 ![alt text](screenshots/hunt6a.png)<br><br>
 
 **Step 2:** Run the Hosts with new logons Query and Examine the Output<br>
@@ -88,7 +88,7 @@ SecurityEvent
 
 ![alt text](screenshots/brain.png)<br><br>
 
-6.	At the top of the page, click **Azure Sentinel – Hunting** to return to the Hunting pane.
+6.	At the top of the page, click **Microsoft Sentinel – Hunting** to return to the Hunting pane.
 
 ![alt text](screenshots/hunt6a.png)<br><br>
 
@@ -135,7 +135,7 @@ In this example, my user name is User43.<br>
 
 ![alt text](screenshots/hunt20.PNG)<br><br>
 
-12.	At the top, click **Azure Sentinel – Hunting.**
+12.	At the top, click **Microsoft Sentinel – Hunting.**
 
 ![alt text](screenshots/hunt21.PNG)<br><br>
 

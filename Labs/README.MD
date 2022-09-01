@@ -2,7 +2,7 @@
 
 **Objectives:**<br>
 After completing this lab, you will be able to:<br>
-•	Deploy Azure Sentinel as a platform for visualizing, investigating, and alerting on your customer's security big data<br>
+•	Deploy Microsoft Sentinel as a platform for visualizing, investigating, and alerting on your customer's security big data<br>
 •	Confidently use Sentinel to render your customer's visualized data truly actionable<br>
 •	Respond to security incidents and Indicators of Compromise discovered with Sentinel<br>
 •	Proactively hunt for misconfigurations and Indicators of Compromise with hunting queries<br>

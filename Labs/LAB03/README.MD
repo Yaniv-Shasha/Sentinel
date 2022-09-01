@@ -1,5 +1,5 @@
 ## Exercise 3: Proactively Investigate Potential Threats, Misconfigurations, and Suspicious Activities Visually 
-In this exercise, you will learn how to access Azure Sentinel and how to use a Workbook to view data visually. You will also learn how to examine the underlying Kusto queries, and to change them.
+In this exercise, you will learn how to access Microsoft Sentinel and how to use a Workbook to view data visually. You will also learn how to examine the underlying Kusto queries, and to change them.
 For this lab, Data connectors have already been added and appropriately configured as necessary.
 .<br>
 
@@ -12,7 +12,7 @@ Username: **AdminXX@sentinellab.xyz** (where “XX” is the number you have bee
 Password: **Ask the trainer**<br>
 
 3.	This brings you to the Azure Home. In the box at the top, search for **Sentinel**.
-4.	In the results, click on **Azure Sentinel**
+4.	In the results, click on **Microsoft Sentinel**
 ![alt text](../LAB01/screenshots/portal2.PNG)<br><br>
 6.	Click **briandel**, which is the name of the Sentinel Workspace.
 ![alt text](../LAB01/screenshots/workspace.PNG)<br><br>
@@ -30,14 +30,14 @@ Password: **Ask the trainer**<br>
 ![alt text](screenshots/FW.PNG)<br><br>
 
 3.	You may encounter a **Welcome to Log Analytics** screen. If so, click **Get Started**. If not, simply continue with the next step.
-4.	This opens up the **Logs** window and also demonstrates a critical point to understand. Azure Log Analytics (and the Kusto Query Language) forms a large portion of the platform upon which Azure Sentinel has been built.
+4.	This opens up the **Logs** window and also demonstrates a critical point to understand. Azure Log Analytics (and the Kusto Query Language) forms a large portion of the platform upon which Microsoft Sentinel has been built.
 5.	Once the query (“WindowsFirewall”) finishes, examine the data.
 6.	Click one of the chevrons on the left to inspect a data element as in the example below (your data will be different).
 
 ![alt text](screenshots/FW_Events.PNG)<br><br>
 
 7.	In keeping with this simple query, this piece of data in the example above tells a simple story. In the example here, the machine DC04.ad.briandel.ca sent (through the Firewall) a UDP packet to 10.0.0.4 over Port 59,121. In itself, it is not terribly interesting. But in aggregate or as part of an investigation, Kusto queries like this can provide critical data as we shall see.
-8.	Return to the Sentinel Overview page by clicking **Azure Sentinel – Overview** at the top.
+8.	Return to the Sentinel Overview page by clicking **Microsoft Sentinel – Overview** at the top.
 
 ![alt text](screenshots/menu.PNG)<br><br>
 
@@ -59,7 +59,7 @@ union SecurityEvent
 In this above example, the administrator account has failed to log on. This could be very telling as an early indicator of attack. Why is someone logging on (and failing) using the administrator account?<br>
 Your data will look different than the example above.
 
-12.	Click *Azure Sentinel – Overview** to return to the Sentinel Overview page.
+12.	Click *Microsoft Sentinel – Overview** to return to the Sentinel Overview page.
 
 ## Task 3: Utilize Workbooks to Proactively Investigate Potential Threats, Misconfigurations, and Suspicious Activities**<br>
 
@@ -109,7 +109,7 @@ In this task, you will learn to proactively investigate using Sentinel Dashboard
 **Step 3**: Delve deeper in the Data Represented in the Workbook
 
 1.	Sometimes we will need to assist our customers in delving deeper into a particular data set or sets. In order to do that, we will often want to drill down closer to the actual data collected by Sentinel (Log Analytics on the back end). 
-2.	Click on the **Azure Sentinel** at the top of the page
+2.	Click on the **Microsoft Sentinel** at the top of the page
 
 
 
