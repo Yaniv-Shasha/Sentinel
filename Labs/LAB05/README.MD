@@ -64,6 +64,8 @@ SigninLogs
 8. Click **Create** <br>
 9. Search for and Run the query to confirm the results 
 
+### Continue with the next lab
+LAB 06 -Excercise 6: Using Watchlist, click <a href="../LAB06/README.MD" target="_blank">here</a>
 
 
 
