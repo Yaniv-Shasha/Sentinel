@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 #### Scenario
 
-In this technical workshop, attendees will analyze log data from a Pre-populated Sentinel workspace. You will not need (and won’t be able to use) your own Azure tenant or subscription. User names and passwords will be provided throughout. Please log on exactly as detailed, including the number that you have been assigned. **Failure to do so will result in potential problems for other lab participants.**
+In this technical workshop, attendees will analyze log data from a pre-populated Sentinel workspace. You will not need (and won’t be able to use) your own Azure tenant or subscription. User names and passwords will be provided throughout. Please log on exactly as detailed, including the number that you have been assigned. **Failure to do so will result in potential problems for other lab participants.**
 
 The Sentinel workspace(s) that you will be working with have been configured with multiple data sources, including Office 365, Azure Active Directory (AD) Sign-in logs, Azure AD Audit logs, and Windows Security Event logs. All Data connectors have been configured to forward all relevant data to the sample Sentinel workspace(s) you’ll be working with. Several vulnerabilities have also been configured in these data source environments.
 
