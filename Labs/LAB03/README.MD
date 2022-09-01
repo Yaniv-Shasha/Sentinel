@@ -25,13 +25,13 @@ Password: **Ask the trainer**<br>
 
 ![alt text](screenshots/evetns.PNG)<br><br>
 
-2.	Click on **WindowsFirewall** off to the right.
+2.	Click on one of the values to the right of the chart, such as**WindowsFirewall**.
 
 ![alt text](screenshots/FW.PNG)<br><br>
 
 3.	You may encounter a **Welcome to Log Analytics** screen. If so, click **Get Started**. If not, simply continue with the next step.
 4.	This opens up the **Logs** window and also demonstrates a critical point to understand. Azure Log Analytics (and the Kusto Query Language) forms a large portion of the platform upon which Microsoft Sentinel has been built.
-5.	Once the query (“WindowsFirewall”) finishes, examine the data.
+5.	Once the query finishes, examine the data.
 6.	Click one of the chevrons on the left to inspect a data element as in the example below (your data will be different).
 
 ![alt text](screenshots/FW_Events.PNG)<br><br>

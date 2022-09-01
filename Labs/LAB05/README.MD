@@ -54,8 +54,11 @@ SigninLogs
 |where UserPrincipalName contains "AdminXX"
 ```
 6.	Under Entity Mapping, map the following entities<br>
-o	Account -> UserPrincipalName  (Click **Add**)<br>
-o	IP -> IPaddress (Click **Add**)<br>
+    | Entity | Identifier | Value |
+    | - | - | - |
+    | Account | FullName | UserPrincipalName |
+    | IP | Address | IPAddress |
+
 
 7. Select **Initial Access**  in Tatics <br>
 8. Click **Create** <br>

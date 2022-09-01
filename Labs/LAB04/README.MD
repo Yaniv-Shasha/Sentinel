@@ -60,7 +60,7 @@ In this Task, we will run several single queries to hunt for indicators of compr
 ![alt text](screenshots/hunt10.PNG)<br><br>
 
 7.	Briefly examine the query. The query is asking for successful and failed logon events, creating a union, setting some time parameters, joining several tables, and setting some output parameters.
-8.	Briefly examine the table of results. Notice that it features the projected attributes Name and Hostcount. From the results, we can see that a subset of computers have indeed received recent (new) logon activity.
+8.	Briefly examine the table of results. Notice the results produce many interesting attributes. Click the **Columns** bar and drag **ComputerName** down to Row Groups.
 9.	Your output may look slightly different, but right away we might notice some suspicious activity. Multiple domain controllers (DCs) have received new logons. This bears further investigation. New logons to DCs are typically rare; DCs also represent high-value attack targets.
 
 ![alt text](screenshots/hunt11.PNG)<br><br>

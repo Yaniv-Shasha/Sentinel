@@ -60,9 +60,10 @@ SigninLogs
 ```
 
 1. Under Entity Mapping, map the following entities
-
-   * Account -> UserprincipalName (Click **Add**)
-   * IP -> IPAddress (Click **Add**)
+    | Entity | Identifier | Value |
+    | - | - | - |
+    | Account | FullName | UserPrincipalName |
+    | IP | Address | IPAddress |
 2. At the bottom, click **Create**
 3. In Queries, search for the query you have just saved. **standardXX – Failed Logon** (where “XX” is the number you have been assigned at the start of class)<br>
 4. Select the **Run Query** button in the bottom right of the screen and confirm if we have results returned.  <br>
