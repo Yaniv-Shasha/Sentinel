@@ -19,7 +19,7 @@
         "RiskState": "Remediated",
         "BlastRadius": "Low",
         "GroupMembership": "[\"NOAM_Users\",\"All Woodgrove Users\",\"MED Test Group \",\"Woodgrove\",\"All Users\",\"Azure ATP contosodemos2 Viewers\",\"Intune Licensed Users\",\"Finance Department\",\"AutoAssignment_e63df43f-643c-4239-8eae-34d423d48188\",\"Employees\",\"MS_DEMO_USERS_O365\",\"Azure ATP contosodemos2 Users\",\"Woodgrove Project NEO\",\"MS_DEMO_USERS_Woodgrove-SG\",\"Woodgrove-FTE\",\"Information Workers\"]",
-        "AssignedRoles": "[\"Global Reader\",\"Service Support Administrator\"]",
+        "AssignedRoles": "[\"Service Support Administrator\"]",
         "Department": "Finance",
         "EmployeeId": "1556290982",
         "JobTitle": "Senior Finance",
