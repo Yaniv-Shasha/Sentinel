@@ -1,11 +1,4 @@
-**Prompt [Try this prompt in Copilot for Microsoft 365](https://www.microsoft365.com/chat/entity1-d870f6cd-4aa5-4d42-9626-ab690c041429/eyJpZCI6IlZYTmxjbFl4ZkdoMGRIQnpPaTh2YzNWaWMzUnlZWFJsTFdsdWRDNXZabVpwWTJVdVkyOXRMM3hQU1VRNlpUWmlObVU1TW1RdE9HWmxaaTAwT1RNeExUazFOMkV0TURObU9XWXlNMkl4TVdObGZETmlNV0kxWWpabUxUZzRPVFF0TkRNMFpTMDVaRFZrTFRGak9UbGpZVEF4TkRabU9Id3lNREkwTFRFeExUSXlWREUzT2pRMU9qRXlMakUwTVRVMk1qaGEiLCJzY2VuYXJpbyI6InNoYXJlTGlua1ZpYVJpY2hDb3B5IiwicHJvcGVydGllcyI6eyJwcm9tcHRTb3VyY2UiOiJ1c2VyIiwiY2xpY2tUaW1lc3RhbXAiOiIyMDI0LTExLTIyVDE3OjQ1OjExLjgxOVoifSwiY2hhdFR5cGUiOiJ3b3JrIiwidmVyc2lvbiI6MS4xfQ)**
-convert this file to a json IdentityInfo.csv
-**Response**
-Sure, here is the content of **[IdentityInfo.csv](https://microsofteur-my.sharepoint.com/personal/yanivsh_microsoft_com/_layouts/15/download.aspx?UniqueId=df166013-2143-4ffa-80a0-6eb6a93da71b&Translate=false&tempauth=v1.eyJzaXRlaWQiOiIwZTllOWYyYi02ODI2LTQyN2EtOWIwYi00MTg1MTc2MGI0ZjMiLCJhcHBfZGlzcGxheW5hbWUiOiJPZmZpY2UgMzY1IFNlYXJjaCBTZXJ2aWNlIiwiYXBwaWQiOiI2NmE4ODc1Ny0yNThjLTRjNzItODkzYy0zZThiZWQ0ZDY4OTkiLCJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvbWljcm9zb2Z0ZXVyLW15LnNoYXJlcG9pbnQuY29tQDcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImV4cCI6IjE3MzIzMDEwNTIifQ.CgsKBGFjcnMSA2MxMAoKCgRzbmlkEgI2NBILCOTFlfTpycU9EAUaDTIwLjE5MC4xMzUuNDcqLENjUXZCTjNFeXdPKzZiNW13NFhzSzFjTThTRnVVK2xrMkdQN3FTUldXWG89MJ0BOAFCEKFmcmRPEAAALpqZIHTKi2BKEGhhc2hlZHByb29mdG9rZW5SElsia21zaSIsImR2Y19jbXAiXVoLWyJhcHBfcmVzIl1yKTBoLmZ8bWVtYmVyc2hpcHwxMDAzYmZmZDhhNzA4NDk0QGxpdmUuY29tegEyggESCb-I-XLxhq9BEZGrLXzQEdtHkgEFWWFuaXaaAQZTaGFzaGGiARV5YW5pdnNoQG1pY3Jvc29mdC5jb22qARAxMDAzQkZGRDhBNzA4NDk0sgE6bXlmaWxlcy5yZWFkIG15ZmlsZXMud3JpdGUgYWxsZmlsZXMud3JpdGUgYWxscHJvZmlsZXMucmVhZMgBAQ.Rf3CxI8snyqBjNEAEwwOuHk32h1sZH7YTJDfXt3EUIA&ApiVersion=2.0&web=1&EntityRepresentationId=636d05d4-b535-4514-be61-96378dd5c710)** converted to JSON format:
-
-```json
-[
-    {
+[    {
         "TenantId": "029c55c8-a7ec-418e-b741-de9d24add5fa",
         "AccountName": "sch585",
         "AccountUPN": "sch585@woodgrove.ms",
@@ -291,19 +284,5 @@ Sure, here is the content of **[IdentityInfo.csv](https://microsofteur-my.sharep
         "IsMFARegistered": "AzureActiveDirectory",
         "SourceSystem": "",
         "ChangeSource": ""
-    },
-    {
-        "TenantId": "029c55c8-a7ec-418e-b741-de9d24add5fa",
-        "AccountName": "vika61",
-        "AccountUPN": "vika61@woodgrove.ms",
-        "AccountSID": "",
-        "AccountObjectId": "a925df26-fc60-46fc-9b22-17722779fc91",
-        "AccountTenantId": "536279f6-15cc-45f2-be2d-61e352b51eef",
-        "AccountDisplayName": "Victoria Kashapov",
-        "GivenName": "Victoria",
-        "Surname": "Kashapov",
-        "OnPremisesAccountObjectId": "a925df26-fc60-46fc-9b22-17722779fc91",
-        "OnPremisesExtensionAttributes": "",
-        "OnPremisesDistinguishedName": "",
-        "Tags": "",
-        "AccountCreationTime [UTC]": "9/4
+    }
+]
