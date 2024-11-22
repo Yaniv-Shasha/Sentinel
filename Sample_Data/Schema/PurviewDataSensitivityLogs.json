@@ -1,0 +1,109 @@
+{
+  "Name": "PurviewDataSensitivityLogs",
+  "Properties": [
+    {
+      "Name": "PurviewTenantId",
+      "Type": "string"
+    },
+    {
+      "Name": "PurviewAccountName",
+      "Type": "string"
+    },
+    {
+      "Name": "PurviewRegion",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceName",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceType",
+      "Type": "string"
+    },
+    {
+      "Name": "SourcePath",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceSubscriptionId",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceRegion",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceCollectionName",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceScanId",
+      "Type": "string"
+    },
+    {
+      "Name": "AssetName",
+      "Type": "string"
+    },
+    {
+      "Name": "AssetPath",
+      "Type": "string"
+    },
+    {
+      "Name": "AssetType",
+      "Type": "string"
+    },
+    {
+      "Name": "AssetCreationTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "AssetModifiedTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "AssetLastScanTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "FileExtension",
+      "Type": "string"
+    },
+    {
+      "Name": "FileSize",
+      "Type": "long"
+    },
+    {
+      "Name": "ActivityType",
+      "Type": "string"
+    },
+    {
+      "Name": "ClassificationTrigger",
+      "Type": "string"
+    },
+    {
+      "Name": "Classification",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "ClassificationDetails",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "SensitivityLabelTrigger",
+      "Type": "string"
+    },
+    {
+      "Name": "SensitivityLabel",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "SensitivityLabelDetails",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "SourceSystem",
+      "Type": "string"
+    }
+  ]
+}
