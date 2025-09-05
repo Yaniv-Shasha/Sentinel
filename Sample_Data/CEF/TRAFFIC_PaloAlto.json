@@ -1,0 +1,18 @@
+[
+  {
+    "TenantId": "8ecf8077-cf51-4820-aadd-14040956f35d",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "5/11/2022, 9:53:48.359 PM",
+    "DeviceVendor": "Palo Alto Networks",
+    "DeviceProduct": "PAN-OS",
+    "DeviceEventClassID": "end",
+    "LogSeverity": 1,
+    "DestinationIP": "10.6.1.5",
+    "SourceIP": "144.91.87.106",
+    "DeviceVersion": "8.0.0",
+    "Activity": "TRAFFIC",
+    "DeviceExternalID": "007057000050480",
+    "Type": "CommonSecurityLog",
+    "_ResourceId": "/subscriptions/xxxxxxx/resourcegroups/cef-collector01_group/providers/microsoft.compute/virtualmachines/cef-collector01"
+  }
+]

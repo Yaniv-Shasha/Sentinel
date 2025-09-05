@@ -1,0 +1,217 @@
+{
+  "Name": "IdentityInfo",
+  "Properties": [
+    {
+      "Name": "AccountName",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountDomain",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountUPN",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountSID",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountObjectId",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountTenantId",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountDisplayName",
+      "Type": "string"
+    },
+    {
+      "Name": "GivenName",
+      "Type": "string"
+    },
+    {
+      "Name": "Surname",
+      "Type": "string"
+    },
+    {
+      "Name": "OnPremisesAccountObjectId",
+      "Type": "string"
+    },
+    {
+      "Name": "OnPremisesExtensionAttributes",
+      "Type": "string"
+    },
+    {
+      "Name": "OnPremisesDistinguishedName",
+      "Type": "string"
+    },
+    {
+      "Name": "Tags",
+      "Type": "string"
+    },
+    {
+      "Name": "AccountCreationTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "InvestigationPriority",
+      "Type": "int"
+    },
+    {
+      "Name": "InvestigationPriorityPercentile",
+      "Type": "int"
+    },
+    {
+      "Name": "RiskLevel",
+      "Type": "string"
+    },
+    {
+      "Name": "RiskLevelDetails",
+      "Type": "string"
+    },
+    {
+      "Name": "RiskState",
+      "Type": "string"
+    },
+    {
+      "Name": "BlastRadius",
+      "Type": "string"
+    },
+    {
+      "Name": "GroupMembership",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "AssignedRoles",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "Department",
+      "Type": "string"
+    },
+    {
+      "Name": "EmployeeId",
+      "Type": "string"
+    },
+    {
+      "Name": "JobTitle",
+      "Type": "string"
+    },
+    {
+      "Name": "RelatedAccounts",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "MailAddress",
+      "Type": "string"
+    },
+    {
+      "Name": "AdditionalMailAddresses",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "Manager",
+      "Type": "string"
+    },
+    {
+      "Name": "StreetAddress",
+      "Type": "string"
+    },
+    {
+      "Name": "City",
+      "Type": "string"
+    },
+    {
+      "Name": "CompanyName",
+      "Type": "string"
+    },
+    {
+      "Name": "Country",
+      "Type": "string"
+    },
+    {
+      "Name": "State",
+      "Type": "string"
+    },
+    {
+      "Name": "Phone",
+      "Type": "string"
+    },
+    {
+      "Name": "IsAccountEnabled",
+      "Type": "bool"
+    },
+    {
+      "Name": "IsServiceAccount",
+      "Type": "bool"
+    },
+    {
+      "Name": "DeletedDateTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "LastSeenDate",
+      "Type": "datetime"
+    },
+    {
+      "Name": "UACFlags",
+      "Type": "string"
+    },
+    {
+      "Name": "UserState",
+      "Type": "string"
+    },
+    {
+      "Name": "UserStateChangedOn",
+      "Type": "datetime"
+    },
+    {
+      "Name": "UserType",
+      "Type": "string"
+    },
+    {
+      "Name": "ExtensionProperty",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "AccountCloudSID",
+      "Type": "string"
+    },
+    {
+      "Name": "IsMFARegistered",
+      "Type": "bool"
+    },
+    {
+      "Name": "Applications",
+      "Type": "string"
+    },
+    {
+      "Name": "ServicePrincipals",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "SourceSystem",
+      "Type": "string"
+    },
+    {
+      "Name": "UserAccountControl",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "ChangeSource",
+      "Type": "string"
+    },
+    {
+      "Name": "EntityRiskScore",
+      "Type": "dynamic"
+    },
+    {
+      "Name": "SAMAccountName",
+      "Type": "string"
+    }
+  ]
+}

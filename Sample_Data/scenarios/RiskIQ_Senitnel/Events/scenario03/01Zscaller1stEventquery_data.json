@@ -1,0 +1,25 @@
+[
+  {
+    "TenantId": "8ecf8077-cf51-4820-aadd-14040956f35d",
+    "TimeGenerated": "7/9/2022, 2:01:54.970 AM",
+    "DeviceVendor": "Zscaler",
+    "DeviceProduct": "NSSWeblog",
+    "DeviceEventClassID": "url",
+    "DeviceAction": "allowed",
+    "SimplifiedDeviceAction": "allowed",
+    "Computer": "zscaler-nss-Contoso",
+    "DestinationIP": "198.54.115.198",
+    "SourceIP": "192.168.20.58",
+    "Activity": "allowed",
+    "AdditionalExtensions": "reason=Allowed;outcome=200;cat=Internet Services;rulelabel=None;ruletype=None;urlclass=Business Use;devicemodel=Virtual Machine",
+    "ApplicationProtocol": "HTTP",
+    "DestinationDnsDomain": "1487424390.ujsd.conncorrd.com",
+    "DestinationServiceName": "General Browsing",
+    "ReceivedBytes": 550,
+    "SentBytes": 307,
+    "RequestURL": "http://1487424390.ujsd.conncorrd.com/55fzbiwk.#aHR0cHM6Ly9oYW5ra2NvY2suY29tL2Vk%20Zmgua2VyZnEvI3RtY2N1c2tlQGVhc2kuY29t",
+    "SourceUserName": "karen@contoso.com",
+    "Type": "CommonSecurityLog",
+    "_ResourceId": ""
+  }
+]

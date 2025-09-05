@@ -1,0 +1,26 @@
+[
+ {
+   "TimeGenerated": "01/10/2022, 09:00:20.276 AM",
+   "DeviceVendor": "Zscaler",
+   "DeviceProduct": "NSSWeblog",
+   "DeviceEventClassID": "url",
+   "LogSeverity": 3,
+   "DeviceAction": "Allowed",
+   "SimplifiedDeviceAction": "Allowed",
+   "Computer": "zscaler-nss-woodgrove",
+   "CommunicationDirection": 1,
+   "DestinationIP": "195.20.49.50",
+   "SourceIP": "172.16.67.36",
+   "DeviceVersion": 5.7,
+   "Activity": "Allowed",
+   "AdditionalExtensions": "reason=Allowed;outcome=200;cat=Internet Services;rulelabel=None;ruletype=None;urlclass=Business Use;devicemodel=Virtual Machine",
+   "ApplicationProtocol": "HTTP",
+   "DestinationServiceName": "General Browsing",
+    "DestinationDnsDomain": "account-verify-i.ml",
+   "FileType": "None",
+   "ReceivedBytes": 550,
+   "SentBytes": 307,
+   "RequestURL": "https://account-verify-i.ml",
+   "SourceUserName": "jwalcott@woodgrove.ms"
+ }
+]

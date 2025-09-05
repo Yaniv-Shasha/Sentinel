@@ -1,0 +1,24 @@
+[
+  {
+    "TenantId": "8ecf8077-cf51-4820-aadd-14040956f35d",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated [Local Time]": "7/7/2022, 10:33:53.000 AM",
+    "ReceiptTime": "May 12 2022 16:45:57 GMT",
+    "DeviceVendor": "Palo Alto Networks",
+    "DeviceProduct": "PAN-OS",
+    "DeviceEventClassID": "Karla-pc",
+    "LogSeverity": "",
+    "OriginalLogSeverity": "",
+    "DeviceAction": "Allow",
+    "SimplifiedDeviceAction": "",
+    "Computer": "Karla-pc",
+    "CommunicationDirection": "",
+    "DeviceFacility": "",
+    "DestinationIP": "94.237.100.32",
+    "SourceIP": "192.168.5.4",
+    "DeviceVersion": "8.0.0",
+    "Activity": "TRAFFIC",
+    "DeviceExternalID": "007057000050480",
+    "Type": "CommonSecurityLog"
+  }
+]

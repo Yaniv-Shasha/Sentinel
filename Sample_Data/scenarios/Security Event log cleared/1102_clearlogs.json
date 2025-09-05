@@ -1,0 +1,25 @@
+[
+  {
+    "TenantId": "8ecf8077-cf51-xxxx-xxxx-14040956f35d",
+    "TimeGenerated [Local Time]": "5/31/2022, 4:20:34.293 PM",
+    "SourceSystem": "OpsManager",
+    "Account": "adelevan@seccxp.ninja",
+    "AccountType": "",
+    "Computer": "Workstation20.seccxp.ninja",
+    "EventSourceName": "Microsoft-Windows-Eventlog",
+    "Channel": "Security",
+    "Task": 104,
+    "Level": 8,
+    "EventData": "<UserData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <LogFileCleared xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\">\n    <SubjectUserSid>S-1-5-21-2769934187-2433420870-601450644-3108</SubjectUserSid>\n    <SubjectUserName>billb</SubjectUserName>\n    <SubjectDomainName>SECCXP</SubjectDomainName>\n    <SubjectLogonId>0x3c3cc1cd</SubjectLogonId>\n  </LogFileCleared>\n</UserData>",
+    "EventID": 1102,
+    "Activity": "1102 - The audit log was cleared.",
+    "SourceComputerId": "74bd90f8-0aa4-4e56-8423-bc731dd6a462",
+    "EventOriginId": "6ee7af2d-dd4d-4cb0-8abe-3c3e7c902daa",
+    "MG": "00000000-0000-0000-0000-000000000001",
+    "TimeCollected [Local Time]": "5/31/2022, 4:20:49.834 PM",
+    "ManagementGroupName": "AOI-8ecf8077-cf51-4820-aadd-14040956f35d",
+    "Type": "SecurityEvent",
+     "_ResourceId": "/subscriptions/xxxxxxxxxxxxxxxxxxxxxxxx/resourcegroups/xxxxxxx/providers/microsoft.compute/virtualmachines/workstation20"
+
+  }
+]

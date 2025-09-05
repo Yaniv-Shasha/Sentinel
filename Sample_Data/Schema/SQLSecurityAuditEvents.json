@@ -1,0 +1,201 @@
+{
+  "Name": "SQLSecurityAuditEvents",
+  "Properties": [
+    {
+      "Name": "LogicalServerName",
+      "Type": "string"
+    },
+    {
+      "Name": "ResourceGroup",
+      "Type": "string"
+    },
+    {
+      "Name": "Category",
+      "Type": "string"
+    },
+    {
+      "Name": "AuditSchemaVersion",
+      "Type": "int"
+    },
+    {
+      "Name": "EventTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "SequenceNumber",
+      "Type": "int"
+    },
+    {
+      "Name": "ActionId",
+      "Type": "string"
+    },
+    {
+      "Name": "ActionName",
+      "Type": "string"
+    },
+    {
+      "Name": "Succeeded",
+      "Type": "bool"
+    },
+    {
+      "Name": "IsColumnPermission",
+      "Type": "bool"
+    },
+    {
+      "Name": "SessionId",
+      "Type": "int"
+    },
+    {
+      "Name": "ServerPrincipalId",
+      "Type": "int"
+    },
+    {
+      "Name": "DatabasePrincipalId",
+      "Type": "int"
+    },
+    {
+      "Name": "TargetServerPrincipalId",
+      "Type": "int"
+    },
+    {
+      "Name": "TargetDatabasePrincipalId",
+      "Type": "int"
+    },
+    {
+      "Name": "ObjectId",
+      "Type": "int"
+    },
+    {
+      "Name": "UserDefinedEventId",
+      "Type": "int"
+    },
+    {
+      "Name": "TransactionId",
+      "Type": "long"
+    },
+    {
+      "Name": "ClassType",
+      "Type": "string"
+    },
+    {
+      "Name": "ClassTypeDescription",
+      "Type": "string"
+    },
+    {
+      "Name": "SecurableClassType",
+      "Type": "string"
+    },
+    {
+      "Name": "DurationMs",
+      "Type": "long"
+    },
+    {
+      "Name": "ResponseRows",
+      "Type": "long"
+    },
+    {
+      "Name": "AffectedRows",
+      "Type": "long"
+    },
+    {
+      "Name": "ClientTlsVersion",
+      "Type": "int"
+    },
+    {
+      "Name": "ClientIp",
+      "Type": "string"
+    },
+    {
+      "Name": "PermissionBitmask",
+      "Type": "string"
+    },
+    {
+      "Name": "SequenceGroupId",
+      "Type": "string"
+    },
+    {
+      "Name": "SessionServerPrincipalName",
+      "Type": "string"
+    },
+    {
+      "Name": "ServerPrincipalName",
+      "Type": "string"
+    },
+    {
+      "Name": "ServerPrincipalSid",
+      "Type": "string"
+    },
+    {
+      "Name": "DatabasePrincipalName",
+      "Type": "string"
+    },
+    {
+      "Name": "TargetServerPrincipalName",
+      "Type": "string"
+    },
+    {
+      "Name": "TargetServerPrincipalSid",
+      "Type": "string"
+    },
+    {
+      "Name": "TargetDatabasePrincipalName",
+      "Type": "string"
+    },
+    {
+      "Name": "DatabaseName",
+      "Type": "string"
+    },
+    {
+      "Name": "SchemaName",
+      "Type": "string"
+    },
+    {
+      "Name": "ObjectName",
+      "Type": "string"
+    },
+    {
+      "Name": "Statement",
+      "Type": "string"
+    },
+    {
+      "Name": "AdditionalInformation",
+      "Type": "string"
+    },
+    {
+      "Name": "UserDefinedInformation",
+      "Type": "string"
+    },
+    {
+      "Name": "ApplicationName",
+      "Type": "string"
+    },
+    {
+      "Name": "ConnectionId",
+      "Type": "string"
+    },
+    {
+      "Name": "DataSensitivityInformation",
+      "Type": "string"
+    },
+    {
+      "Name": "HostName",
+      "Type": "string"
+    },
+    {
+      "Name": "SessionContext",
+      "Type": "string"
+    },
+    {
+      "Name": "IsServerLevelAudit",
+      "Type": "bool"
+    },
+    {
+      "Name": "EventId",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceSystem",
+      "Type": "string"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+     "TenantId": "8ecf8077-cf51-xxxx-xxxx-14040956f35d",
+     "TimeGenerated [Local Time]": "9/30/2022, 9:55:34.147 AM",
+     "Account": "AIA-WIN-2019-01",
+     "AccountType": "Machine",
+     "Computer": "AIA-WIN-2019-01",
+     "EventSourceName": "Microsoft-Windows-Security-Auditing",
+     "Channel": "Security",
+     "Task": 1,
+     "Level": 0,
+     "EventID": 4688,
+     "Activity": "4688 - A new process has been created",
+     "SourceComputerId": "b3bdecf3-5f98-407f-908c-8634b3ad4154",
+     "EventOriginId": "b3bdecf3-5f98-407f-908c-8634b3ad4155",
+     "TimeCollected [Local Time]": "2022-09-28T11:45:15.1222339Z",
+     "CommandLine": "Example.exe",
+     "MandatoryLabel": "S-1-16-16384",
+     "NewProcessId": "0x12f0",
+     "NewProcessName": "C:\\gc_worker.exe",
+     "ParentProcessName": "C:\\gc_service.exe",
+     "Process": "gc_worker.exe",
+     "ProcessId": "0x290",
+     "SecurityEvent": "SecurityEvent",
+     "_Resourceid": "/subscriptions/xxxxxxxxxxxxxxxxxxx/resourcegroups/aia-attack-demo/providers/microsoft.compute/virtualmachines/aia-win-2019-01"
+  
+  }
+]

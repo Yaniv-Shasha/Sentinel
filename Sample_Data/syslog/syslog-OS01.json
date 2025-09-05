@@ -1,0 +1,19 @@
+[
+  {
+    "TenantId": "",
+    "SourceSystem": "Linux",
+    "TimeGenerated [Local Time]": "5/18/2022, 6:04:13.583 AM",
+    "Computer": "SAPVM",
+    "EventTime [Local Time]": "5/18/2022, 6:04:13.000 AM",
+    "Facility": "authpriv",
+    "HostName": "SAPVM",
+    "SeverityLevel": "info",
+    "SyslogMessage": "pam_unix(sudo:session): session opened for user root by (uid=0)",
+    "ProcessID": "",
+    "HostIP": "172.19.0.4",
+    "ProcessName": "sudo",
+    "MG": "00000000-0000-0000-0000-000000000002",
+    "Type": "Syslog",
+    "_ResourceId": "/subscriptions/d1d8779d-38d7-4f06-91db-9cbc8de0176f/resourcegroups/soc-sap/providers/microsoft.compute/virtualmachines/sapvm"
+  }
+]

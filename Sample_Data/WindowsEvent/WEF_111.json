@@ -1,0 +1,21 @@
+[
+  {
+    "TenantId": "00000000-0000-0000-0000-000000000000",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "5/8/2022, 11:10:31.910 AM",
+    "Provider": "Microsoft-Windows-EventForwarder",
+    "Channel": "",
+    "Computer": "EC2AMAZ-BOAPGCV.WECDomain2.local",
+    "Task": 1,
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "Data": "",
+    "EventData": {},
+    "RawEventData": "",
+    "EventID": 111,
+    "EventOriginId": "4fd5b530-14b6-4fdb-9104-8499786f102c",
+    "ManagementGroupName": "AOI-00000000-0000-0000-0000-000000000000",
+    "Type": "WindowsEvent",
+    "_ResourceId": ""
+  }
+]

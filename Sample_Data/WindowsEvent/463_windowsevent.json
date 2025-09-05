@@ -1,0 +1,27 @@
+[
+  {
+    "TenantId": "00000000-0000-0000-0000-000000000000",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "5/8/2022, 12:20:13.773 PM",
+    "Provider": "Microsoft-Windows-Security-Auditing",
+    "Channel": "Security",
+    "Computer": "EC2AMAZ-BOAPGCV.WECDomain2.local",
+    "Task": 1,
+    "EventLevel": 0,
+    "EventLevelName": "Information",
+    "Data": "",
+    "EventData": {
+      "TargetUserSid": "S-1-5-7",
+      "TargetUserName": "ANONYMOUS LOGON",
+      "TargetDomainName": "NT AUTHORITY",
+      "TargetLogonId": "0x10ecd7",
+      "LogonType": "3"
+    },
+    "RawEventData": "",
+    "EventID": 4634,
+    "EventOriginId": "4fd5b530-14b6-4fdb-9104-8499786f102c",
+    "ManagementGroupName": "AOI-00000000-0000-0000-0000-000000000000",
+    "Type": "WindowsEvent",
+    "_ResourceId": ""
+  }
+]

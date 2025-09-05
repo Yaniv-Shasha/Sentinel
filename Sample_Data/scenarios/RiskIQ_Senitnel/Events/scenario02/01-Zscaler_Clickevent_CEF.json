@@ -1,0 +1,26 @@
+[
+ {
+   "TimeGenerated": "4/26/2022, 08:18:20.276 AM",
+   "DeviceVendor": "Zscaler",
+   "DeviceProduct": "NSSWeblog",
+   "DeviceEventClassID": "Allowed",
+   "LogSeverity": 3,
+   "DeviceAction": "Allowed",
+   "SimplifiedDeviceAction": "Allowed",
+   "Computer": "zscaler-nss-Contoso",
+   "CommunicationDirection": 1,
+   "DestinationIP": "108.167.132.213",
+   "SourceIP": "192.168.20.44",
+   "DeviceVersion": 5.7,
+   "Activity": "Allowed",
+   "AdditionalExtensions": "reason=Allowed;outcome=200;cat=Internet Services;rulelabel=None;ruletype=None;urlclass=Business Use;devicemodel=Virtual Machine",
+   "ApplicationProtocol": "HTTP",
+   "DestinationServiceName": "General Browsing",
+   "DestinationDnsDomain": "dayvidmarketingdireto.com.br",
+   "FileType": "None",
+   "ReceivedBytes": 550,
+   "SentBytes": 307,
+   "RequestURL": "http://dayvidmarketingdireto.com.br/shii/office-RD117/",
+   "SourceUserName": "benjamin@contoso.com"
+ }
+]

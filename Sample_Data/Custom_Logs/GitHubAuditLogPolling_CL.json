@@ -1,0 +1,24 @@
+[
+  {
+    "TimeGenerated [UTC]": "7/22/2022, 12:12:06.437 AM",
+    "operation_type_s": "modify",
+    "run_number_d": 68,
+    "workflow_id_d": 26522810,
+    "workflow_run_id_d": 2715456424,
+    "run_attempt_d": 1,
+    "head_sha_s": "356fd6d8d14784617fdc3093d3429c76e3567a55",
+    "conclusion_s": "success",
+    "head_branch_s": "main",
+    "started_at_t [UTC]": "7/22/2022, 12:05:32.000 AM",
+    "event_s": "schedule",
+    "completed_at_t [UTC]": "7/22/2022, 12:05:53.000 AM",
+    "repo_s": "Contoso-Hotels-Security/demo-bootstrap",
+    "name_s": "Maintenance - review demo states",
+    "_document_id_s": "PRIa1qeOrMFofD2Xm567zw",
+    "actor_s": "peter-murray",
+    "org_s": "Contoso-Hotels-Security",
+    "action_s": "workflows.completed_workflow_run",
+    "_timestamp_d": 1658448353771,
+    "created_at_d": 1658448353771
+  }
+]

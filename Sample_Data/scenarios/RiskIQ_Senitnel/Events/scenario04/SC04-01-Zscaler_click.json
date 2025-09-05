@@ -1,0 +1,24 @@
+[
+  {
+    "TenantId": "8ecf8077-cf51-4820-aadd-14040956f35d",
+    "TimeGenerated [UTC]": "7/9/2022, 2:52:27.515 AM",
+    "DeviceVendor": "Zscaler",
+    "DeviceProduct": "NSSWeblog",
+    "DeviceEventClassID": "url",
+    "DeviceAction": "Allowed",
+    "SimplifiedDeviceAction": "Allowed",
+    "Computer": "zscaler-nss-Contoso",
+    "DestinationIP": "192.185.147.185",
+    "SourceIP": "192.168.20.59",
+    "Activity": "Allowed",
+    "AdditionalExtensions": "reason=Allowed;outcome=200;cat=Internet Services;rulelabel=None;ruletype=None;urlclass=Business Use;devicemodel=Virtual Machine",
+    "ApplicationProtocol": "HTTP",
+    "DestinationDnsDomain": "safintech.co.id",
+    "DestinationServiceName": "General Browsing",
+    "ReceivedBytes": 550,
+    "SentBytes": 307,
+    "RequestURL": "http://safintech.co.id/office/",
+    "SourceUserName": "Jwalcott@contoso.com",
+    "Type": "CommonSecurityLog"
+  }
+]

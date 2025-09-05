@@ -1,0 +1,30 @@
+[
+  {
+    "TimeGenerated [UTC]": "8/18/2022, 4:48:24.460 PM",
+    "event_data_receiveTimestamp_t [UTC]": "8/18/2022, 4:48:22.912 PM",
+    "time_d": 1660841286.28201,
+    "host_s": "GCPFunction",
+    "source_s": "projects/gcp-ninja/topics/MicrosoftDefenders-us-central1-a-mdfc-gke-1-Topic",
+    "sourcetype_s": "google:gcp:pubsub:message",
+    "event_publish_time_d": 1660841304.003,
+    "event_data_insertId_g": "0c4ed34e-fa29-4a82-8878-3b69b42e0796",
+    "event_data_labels_authorization_k8s_io_decision_s": "allow",
+    "event_data_logName_s": "projects/gcp-ninja/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "event_data_operation_first_b": true,
+    "event_data_operation_id_g": "0c4ed34e-fa29-4a82-8878-3b69b42e0796",
+    "event_data_operation_last_b": true,
+    "event_data_operation_producer_s": "k8s.io",
+    "event_data_protoPayload__type_s": "type.googleapis.com/google.cloud.audit.AuditLog",
+    "event_data_protoPayload_authenticationInfo_principalEmail_s": "system:addon-manager",
+    "event_data_protoPayload_authorizationInfo_s": [
+      {
+        "granted": true,
+        "permission": "io.k8s.get",
+        "resource": "apis/networking.k8s.io/v1"
+      }
+    ],
+    "event_data_protoPayload_methodName_s": "io.k8s.get",
+    "event_data_protoPayload_requestMetadata_callerIp_s": "10.128.1.153",
+    "event_data_protoPayload_requestMetadata_callerSuppliedUserAgent_s": "addon-manager/1.23-v0.8 (31c544d)"
+  }
+]
