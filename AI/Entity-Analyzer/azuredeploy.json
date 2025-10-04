@@ -84,7 +84,7 @@
                         "For_each": {
                             "foreach": "@body('Entities_-_Get_URLs')?['URLs']",
                             "actions": {
-                                "Entity_Analyzer": {
+                                "URL_Analyzer": {
                                     "type": "ApiConnection",
                                     "inputs": {
                                         "host": {
@@ -107,9 +107,18 @@
                                         }
                                     }
                                 },
-                                "Add_comment_to_incident_(V3)": {
+                                "Compose_Url": {
                                     "runAfter": {
-                                        "Entity_Analyzer": [
+                                        "URL_Analyzer": [
+                                            "Succeeded"
+                                        ]
+                                    },
+                                    "type": "Compose",
+                                    "inputs": "@concat(\r\n'**Analysis Result**\\n\\n', body('URL_Analyzer')?['analysis'],'\\n\\n',\r\n    '**Recommendation**: ',body('URL_Analyzer')?['recommendation'], '\\n\\n',\r\n    '> ',body('URL_Analyzer')?['disclaimer']\r\n)"
+                                },
+                                "Add_Url_comment_to_incident": {
+                                    "runAfter": {
+                                        "Compose_Url": [
                                             "Succeeded"
                                         ]
                                     },
@@ -123,7 +132,7 @@
                                         "method": "post",
                                         "body": {
                                             "incidentArmId": "@triggerBody()?['object']?['id']",
-                                            "message": "<p class=\"editor-paragraph\">@{body('Entity_Analyzer')}</p>"
+                                            "message": "<p class=\"editor-paragraph\">@{outputs('Compose_Url')}</p>"
                                         },
                                         "path": "/Incidents/Comment"
                                     }
@@ -153,7 +162,7 @@
                         "For_each_1": {
                             "foreach": "@body('Entities_-_Get_Accounts')?['Accounts']",
                             "actions": {
-                                "Entity_Analyzer_1": {
+                                "User_Analyzer": {
                                     "type": "ApiConnection",
                                     "inputs": {
                                         "host": {
@@ -170,12 +179,24 @@
                                                 "userId": "@{item()?['AadUserId']}"
                                             }
                                         },
-                                        "path": "/aiprimitives/analysis"
+                                        "path": "/aiprimitives/analysis",
+                                        "queries": {
+                                            "api-version": "2025-08-01-preview"
+                                        }
                                     }
                                 },
-                                "Add_comment_to_incident_(V3)_1": {
+                                "Compose_User": {
                                     "runAfter": {
-                                        "Entity_Analyzer_1": [
+                                        "User_Analyzer": [
+                                            "Succeeded"
+                                        ]
+                                    },
+                                    "type": "Compose",
+                                    "inputs": "@concat(\r\n'**Analysis Result**\n\n', body('User_Analyzer')?['analysis'],'\n\n',\r\n    '**Recommendation**: ',body('User_Analyzer')?['recommendation'], '\n\n',\r\n    '> ',body('User_Analyzer')?['disclaimer']\r\n)"
+                                },
+                                "Add_User_comment_to_incident": {
+                                    "runAfter": {
+                                        "Compose_User": [
                                             "Succeeded"
                                         ]
                                     },
@@ -189,7 +210,7 @@
                                         "method": "post",
                                         "body": {
                                             "incidentArmId": "@triggerBody()?['object']?['id']",
-                                            "message": "<p class=\"editor-paragraph\">@{body('Entity_Analyzer_1')}</p>"
+                                            "message": "<p class=\"editor-paragraph\">@{outputs('Compose_User')}</p>"
                                         },
                                         "path": "/Incidents/Comment"
                                     }
@@ -211,7 +232,12 @@
                             "azuresentinel": {
                                 "connectionId": "[resourceId('Microsoft.Web/connections', variables('MicrosoftSentinelConnectionName'))]",
                                 "connectionName": "[variables('MicrosoftSentinelConnectionName')]",
-                                "id": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/Azuresentinel')]"
+                                "id": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/Azuresentinel')]",
+                                "connectionProperties": {
+                                    "authentication": {
+                                        "type": "ManagedServiceIdentity"
+                                    }
+                                }
                             },
                             "sentinelmcp": {
                                 "connectionId": "[resourceId('Microsoft.Web/connections', variables('SentinelMCPConnectionName'))]",
@@ -232,6 +258,7 @@
             "properties": {
                 "displayName": "[variables('MicrosoftSentinelConnectionName')]",
                 "customParameterValues": {},
+                "parameterValueType": "Alternative",
                 "api": {
                     "id": "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', resourceGroup().location, '/managedApis/Azuresentinel')]"
                 }
