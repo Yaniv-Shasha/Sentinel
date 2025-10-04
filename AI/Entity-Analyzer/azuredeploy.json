@@ -114,7 +114,7 @@
                                         ]
                                     },
                                     "type": "Compose",
-                                    "inputs": "@concat(\r\n'**Analysis Result**\\n\\n', body('URL_Analyzer')?['analysis'],'\\n\\n',\r\n    '**Recommendation**: ',body('URL_Analyzer')?['recommendation'], '\\n\\n',\r\n    '> ',body('URL_Analyzer')?['disclaimer']\r\n)"
+                                    "inputs": "@concat(\r\n'🔍 **Analysis Result**\n\n',\r\nbody('URL_Analyzer')?['analysis'], '\n\n',\r\n'🏷️ **Classification**\n\n',\r\nbody('URL_Analyzer')?['classification'], '\n\n',\r\n'✅ **Recommendation**\n\n',\r\nbody('URL_Analyzer')?['recommendation'], '\n\n',\r\n'⚠️ **Disclaimer**\n\n',\r\n'> 🤖 ', body('URL_Analyzer')?['disclaimer']\r\n)"
                                 },
                                 "Add_Url_comment_to_incident": {
                                     "runAfter": {
@@ -192,7 +192,7 @@
                                         ]
                                     },
                                     "type": "Compose",
-                                    "inputs": "@concat(\r\n'**Analysis Result**\n\n', body('User_Analyzer')?['analysis'],'\n\n',\r\n    '**Recommendation**: ',body('User_Analyzer')?['recommendation'], '\n\n',\r\n    '> ',body('User_Analyzer')?['disclaimer']\r\n)"
+                                    "inputs": "@concat(\r\n'🔍 **Analysis Result**\n\n',\r\nbody('User_Analyzer')?['analysis'], '\n\n',\r\n'🏷️ **Classification**\n\n',\r\nbody('User_Analyzer')?['classification'], '\n\n',\r\n'✅ **Recommendation**\n\n',\r\nbody('User_Analyzer')?['recommendation'], '\n\n',\r\n'⚠️ **Disclaimer**\n\n',\r\n'> 🤖 ', body('User_Analyzer')?['disclaimer']\r\n)"
                                 },
                                 "Add_User_comment_to_incident": {
                                     "runAfter": {
