@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workflows_Entity_analyzer_Url_Trigger_name": {
-            "defaultValue": "Url-Trigger-Entity-Analyzer",
+            "defaultValue": "Entity-analyzer-Url-Trigger",
             "type": "String"
         },
         "connections_azuresentinel_73_externalid": {
