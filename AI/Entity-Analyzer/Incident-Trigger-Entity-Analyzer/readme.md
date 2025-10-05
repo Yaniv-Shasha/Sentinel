@@ -40,7 +40,7 @@ To deploy the Multi-Entity Analyzer Logic App:
 3. Configure the lookBackDays parameter if needed (default is 60 days)
 4. The workspace ID will be automatically retrieved from the incident
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FYaniv-Shasha%2FSentinel%2Fmain%2FAI%2FEntity-Analyzer%2FIncident-Trigger-Entity-Analyzer%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FYaniv-Shasha%2FSentinel%2Fmain%2FAI%2FEntity-Analyzer%2FIncident-Trigger-Entity-Analyzer%2Fazuredeploy.json" target="_blank">target="_blank">
     <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
 
