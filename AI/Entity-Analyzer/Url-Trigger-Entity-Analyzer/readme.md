@@ -40,7 +40,7 @@ To deploy the URL Entity Analyzer Logic App:
 3. Provide the required Workspace ID parameter
 4. Configure the lookBackDays parameter if needed (default is 10 days)
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FYaniv-Shasha%2FSentinel%2Fmain%2FAI%2FEntity-Analyzer%2FEntity-Trigger%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FYaniv-Shasha%2FSentinel%2Fmain%2FAI%2FEntity-Analyzer%2FUrl-Trigger-Entity-Analyzer%2Fazuredeploy.json" target="_blank">
     <img src="https://aka.ms/deploytoazurebutton"/>
 </a>
 
