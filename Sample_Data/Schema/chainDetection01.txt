@@ -1,5 +1,5 @@
 {
-  "Name": "CustomTable",
+  "Name": "NotableEvents",
   "Properties": [
     {
       "Name": "TenantId",
