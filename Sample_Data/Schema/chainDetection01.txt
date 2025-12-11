@@ -1,0 +1,157 @@
+{
+  "Name": "CustomTable",
+  "Properties": [
+    {
+      "Name": "TenantId",
+      "Type": "string"
+    },
+    {
+      "Name": "SourceSystem",
+      "Type": "string"
+    },
+    {
+      "Name": "MG",
+      "Type": "string"
+    },
+    {
+      "Name": "ManagementGroupName",
+      "Type": "string"
+    },
+    {
+      "Name": "TimeGenerated",
+      "Type": "datetime"
+    },
+    {
+      "Name": "Computer",
+      "Type": "string"
+    },
+    {
+      "Name": "RawData",
+      "Type": "string"
+    },
+    {
+      "Name": "ProcessCommandLine",
+      "Type": "string"
+    },
+    {
+      "Name": "FileName",
+      "Type": "string"
+    },
+    {
+      "Name": "AlertGuid",
+      "Type": "string"
+    },
+    {
+      "Name": "ProcessName",
+      "Type": "string"
+    },
+    {
+      "Name": "Username",
+      "Type": "string"
+    },
+    {
+      "Name": "Hostname",
+      "Type": "string"
+    },
+    {
+      "Name": "SubTechniques",
+      "Type": "string"
+    },
+    {
+      "Name": "AlertDescription",
+      "Type": "string"
+    },
+    {
+      "Name": "AadUserId",
+      "Type": "string"
+    },
+    {
+      "Name": "ProcessName",
+      "Type": "string"
+    },
+    {
+      "Name": "UrlHostname",
+      "Type": "string"
+    },
+    {
+      "Name": "DstIpAddr",
+      "Type": "string"
+    },
+    {
+      "Name": "HostId",
+      "Type": "string"
+    },
+    {
+      "Name": "StartTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "EndTime",
+      "Type": "datetime"
+    },
+    {
+      "Name": "AlertName",
+      "Type": "string"
+    },
+    {
+      "Name": "Tactics",
+      "Type": "string"
+    },
+    {
+      "Name": "Techniques",
+      "Type": "string"
+    },
+    {
+      "Name": "Subtechniques",
+      "Type": "string"
+    },
+    {
+      "Name": "RiskScore",
+      "Type": "real"
+    },
+    {
+      "Name": "HostName",
+      "Type": "string"
+    },
+    {
+      "Name": "DnsDomain",
+      "Type": "string"
+    },
+    {
+      "Name": "UserName",
+      "Type": "string"
+    },
+    {
+      "Name": "UserDomain",
+      "Type": "string"
+    },
+    {
+      "Name": "MailAddress",
+      "Type": "string"
+    },
+    {
+      "Name": "SrcIpAddr",
+      "Type": "string"
+    },
+    {
+      "Name": "AadUserId",
+      "Type": "string"
+    },
+    {
+      "Name": "Event",
+      "Type": "string"
+    },
+    {
+      "Name": "EventSource",
+      "Type": "string"
+    },
+    {
+      "Name": "Type",
+      "Type": "string"
+    },
+    {
+      "Name": "_ResourceId",
+      "Type": "string"
+    }
+  ]
+}
